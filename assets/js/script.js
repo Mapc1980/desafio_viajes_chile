@@ -29,7 +29,7 @@ $(document).ready(function() {
         // Verificar si el campo de texto está vacío
         if (comentario.trim() === "") {
             // Mostrar mensaje de alerta si el campo de texto está vacío
-            alert("Por favor, completa el campo de comentario");
+            alert("Por favor, completa los campos de Nombre Asunto y Comentario");
         } else {
             // Si el campo de texto no está vacío, enviar el formulario
             alert("Correo enviado");
